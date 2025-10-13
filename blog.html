@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tarun Teli — Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+   <a href="index.html">
+    <img src="tarun.png" alt="Logo" 
+         style="height: clamp(25px, 1vw, 30px);">
+  </a>
+
+  <!-- Desktop nav -->
+  <div class="nav-links">
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- Mobile menu icon -->
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+</header>
+
+<!-- Sidebar (for mobile) -->
+<nav id="sidebar">
+  <a href="blog.html">Blog</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<!-- 🔍 Search Bar -->
+<div class="search-bar">
+  <input type="text" id="searchInput" placeholder="Search blog by name...">
+</div>
+
+
+ <section class="blog-container">
+  <div class="blog-card">
+    <img src="blog1.png" alt="Blog 1">
+    <div class="blog-content">
+      <h3>Normal Search vs. Quantum Search</h3>
+      <a href="https://tarunteliblogs.blogspot.com/2025/09/normal-search-vs.html" class="read-more" target="_blank">Read More →</a>
+    </div>
+  </div>
+
+  <div class="blog-card">
+    <img src="blog2.png" alt="Blog 2">
+    <div class="blog-content">
+      <h3>Artificial Intelligence and Business</h3>
+      <a href="https://tarunteliblogs.blogspot.com/2025/09/artificial-intelligence-and-business_26.html" class="read-more" target="_blank">Read More →</a>
+    </div>
+  </div>
+
+  <div class="blog-card">
+    <img src="blog3.jpeg" alt="Blog 3">
+    <div class="blog-content">
+      <h3>Values & Conduct in Teacher–Student Relationship</h3>
+      <a href="https://tarunteliblogs.blogspot.com/2025/10/values-conduct-in-teacherstudent.html" class="read-more" target="_blank">Read More →</a>
+    </div>
+  </div>
+</section>
+
+
+ <footer>
+    <p>© 2025 Tarun Teli</p>
+    <p>
+      <a href="https://www.instagram.com/tarunteli_" target="_blank">Instagram</a> 
+      <a href="https://x.com/drtarunteli" target="_blank">Twitter</a> 
+    </p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
